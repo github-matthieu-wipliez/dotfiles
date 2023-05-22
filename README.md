@@ -1,6 +1,6 @@
 # dotfiles
 
-
+Following the guide at https://wiki.archlinux.org/title/Dotfiles
 
 ## Getting started
 

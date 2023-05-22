@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Matthieu Wipliez
-	email = matthieu.wipliez@gmail.com
+	email = matthieu.wipliez@teads.com
 [push]
 	default = current
 [filesystem "Azul Systems, Inc.|11.0.6|/dev/disk1s1"]

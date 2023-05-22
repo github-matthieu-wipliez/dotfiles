@@ -4,6 +4,26 @@ Following the guide at https://wiki.archlinux.org/title/Dotfiles
 
 ## Getting started
 
+Set up private key:
+
+```
+Host gitlab.com
+    HostName gitlab.com
+    IdentityFile ~/.ssh/gitlab
+```
+
+Clone this repo:
+
+```
+git clone --separate-git-dir=$HOME/.dotfiles git@gitlab.com:matt2xu/dotfiles.git $HOME/dotfiles-tmp
+```
+
+And then:
+
+```
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+```
+
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
 Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!

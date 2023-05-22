@@ -1,0 +1,14 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Matthieu Wipliez
+	email = matthieu.wipliez@gmail.com
+[push]
+	default = current
+[filesystem "Azul Systems, Inc.|11.0.6|/dev/disk1s1"]
+	timestampResolution = 7000 nanoseconds
+	minRacyThreshold = 0 nanoseconds
+[core]
+	precomposeUnicode = true
+	excludesfile = $HOME/.gitignore
+[pull]
+	rebase = false
